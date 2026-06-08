@@ -45,11 +45,6 @@ Raze is a feature-rich Discord bot built with **discord.js v14**, featuring adva
 
 This project is licensed under a custom agreement. It is free for **personal, non-commercial use**. Redistribution for profit or creating video tutorials/showcases of the source code without permission is strictly prohibited. See [LICENSE](./LICENSE) for full details.
 
-## 🙌 Credits
-
-- **Developers**: Void & CodeZ devs | **Raze Development**
-- **Base Code**: This project uses [Yukihana](https://github.com/bre4d777/Yukihana) by **bre4d777** as its foundation.
-
 ---
 
 ### 📞 Support

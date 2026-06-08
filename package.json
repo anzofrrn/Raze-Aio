@@ -1,0 +1,61 @@
+{
+  "name": "Raze",
+  "version": "1.0.0",
+  "description": "A versatile Discord.js bot with advanced sharding and modular command architecture",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/shard.js",
+    "dev": "node --watch src/shard.js",
+    "test": "node --test",
+    "setup": "cp .env.example .env && echo 'Created .env file. Please edit it with your configuration.'"
+  },
+  "imports": {
+    "#commands/*": "./src/commands/*.js",
+    "#structures/*": "./src/structures/*.js",
+    "#database/*": "./src/database/*.js",
+    "#config/*": "./src/config/*.js",
+    "#utils/*": "./src/utils/*.js",
+    "#events/*": "./src/events/*.js",
+    "#managers/*": "./src/managers/*.js",
+    "#handlers/*": "./src/structures/handlers/*.js",
+    "#classes/*": "./src/structures/classes/*.js",
+    "#db/*": "./src/database/repo/*.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "sharding",
+    "modular",
+    "raze"
+  ],
+  "author": "Void & CodeZ",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.82",
+    "axios": "^1.13.2",
+    "better-sqlite3": "^11.10.0",
+    "chalk": "^5.6.2",
+    "discord-giveaways": "^6.0.1",
+    "discord-hybrid-sharding": "^2.2.6",
+    "discord.js": "^14.25.1",
+    "discord.js-docs": "^0.4.3",
+    "dotenv": "^16.6.1",
+    "enhanced-ms": "^4.1.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.2",
+    "lavalink-client": "^2.7.0",
+    "moment": "^2.30.1",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.7.0",
+    "undici": "^7.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "eslint-formatter-pretty": "^6.0.1"
+  }
+}

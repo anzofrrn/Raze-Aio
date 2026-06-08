@@ -54,4 +54,4 @@ This project is licensed under a custom agreement. It is free for **personal, no
 
 ### 📞 Support
 
-Join our support server for help and updates: [discord.gg/raze](https://discord.gg/raze)
+Join our support server for help and updates: [discord.gg/codez](https://discord.gg/codez)
